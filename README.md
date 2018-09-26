@@ -1,3 +1,15 @@
+# FEND Feed Reader Testing Project
+===============================
+### Udacity Front-end Web-development Project 4 
+## Objective of project
+In this project we learn how to use Jasmine to write a number of tests against a pre-existing application. Test out possible loop holes in an application - such as this feed reader application 
+## instructions 
+To see these test in action you will have to download the repo into your local computer and open the "index.html" file in your favoirte browser. 
+## Contributing
+Most of the code and start up files was provided by Udacity. all Work was done in the feedreader.js  with the help of walk throughs, webinars, and udacity resources of the following links. (https://udenver.zoom.us/recording/play/-1Agy4wDME0_ab_zaNUiWquZOWdb4qQvCJENURKWT4CDtHWqXrE0yI7DSi8kfvm5?continueMode=true, https://sites.google.com/udacity.com/gwgdevscholarship/resources/tech-webinars )
+## Dependencies 
+ this project was built using HTML Canvas, CSS, and Echmascript 6. Test suites were written using Jasmine. All files were provided by Udacity.
+
 # Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
