@@ -90,21 +90,20 @@ $(function() {
     beforeEach(done => {
       // first feed loaded
       loadFeed(0, function(){
-        feedOne = $(".feed").html();
-        done();
-      });
+        feedOne = $(".feed").html();      
       // second feed loaded 
-      loadFeed(1, function(){
-        feedTwo = $(".feed").html();
-        done();
-      })
+        loadFeed(1, function(){
+          feedTwo = $(".feed").html();
+          done();
+        })
+      });
     });
 
     /*a test that ensures when a new feed is loaded
     * by the loadFeed function that the content actually changes.          
     */
     it('content is changed after new feed is loaded', function(){
-      expect(feedOne === feedTwo).toBe(false);
+      expect(feedOne).not.toEqual(feedTwo);
     });
   }); 
 }());
