@@ -37,7 +37,7 @@ $(function() {
     it('every feed name is not empty', function () {
       allFeeds.forEach(feed => {
         expect(feed.name).toBeDefined();
-        expect(feed.name.length).not.empty;
+        expect(feed.name.length).not.toBe(0);
       });          
     });
   });
